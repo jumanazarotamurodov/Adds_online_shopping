@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+}
+.container{
+    width: 1583px;
+    height: 2000px;
+    background-color: #F5F5F5;
+    position: relative;
+
+}

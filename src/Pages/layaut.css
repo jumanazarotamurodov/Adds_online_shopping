@@ -1,0 +1,83 @@
+.layaut{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+}
+.user{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    margin-left: -50px;
+}
+.user p{
+    display: inline;
+    /* width: 300px; */
+    /* background-color: red; */
+    position: absolute;
+    margin-top: 30px;
+    font-size: 10px;
+    color: #777;
+    margin-left: 105px
+
+}
+.user span{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.user img{
+    width: 50px;
+}
+.hover{
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+    /* background-color: red; */
+}
+.hover ul{
+    display: grid;
+    grid-row-gap: 20px;
+    width: 100%;
+    grid-template-columns: auto ;
+}
+.hover li , a{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-gap: -110px;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-family: 'Jost', sans-serif;
+    width: 200px;
+    height: 40px;
+    transition: 0.2s;
+    z-index: 1;
+    color: black;
+}
+.on{
+    background-color: #EEF2FE;
+}
+
+.hov{
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    background-color: #EEF2FE;
+    border-radius: 6px;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.outlet {
+    width: 993px;
+    position: absolute;
+    margin-left: 273px;
+    margin-top: -400px;
+}

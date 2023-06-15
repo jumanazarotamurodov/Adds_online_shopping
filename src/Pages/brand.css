@@ -1,0 +1,38 @@
+.Brand {
+    width: 255px;
+    height: 350px;
+    background-color: white;
+    margin-top: 420px;
+    margin-left: -272px;
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+    font-family: sans-serif;
+}
+.see{
+    color: rgba(23, 84, 242, 1);
+    position: absolute;
+    right: 20px;
+    top: 27px;
+}
+.logos{
+    width: 215px;
+    height: 270px;
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.apple{
+    width: 65px;
+    border-radius: 6px;
+    padding: 13px;
+    height: 80px;
+    background-color: #F9F9F9;
+}
+.apple img{
+    margin-left: 5px;
+}

@@ -1,0 +1,10 @@
+.page{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 20% 78.5%;
+    grid-column-gap: 1.5%;
+}
